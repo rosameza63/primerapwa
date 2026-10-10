@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Primera PWA</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Vinculación del Manifiesto -->
+  <!-- VinculaciÃ³n del Manifiesto -->
   <link rel="manifest" href="manifest.json">
-  <!-- Tema de color para la barra de estado en móviles -->
+  <!-- Tema de color para la barra de estado en mÃ³viles -->
   <meta name="theme-color" content="#317EFB">
 </head>
 <body>
 
   <main>
-    <h1>¡Hola! Esta es mi PWA desde cero</h1>
-    <p>Si estás en el navegador, verás el icono de instalación en la barra de direcciones.</p>
+    <h1>Â¡Hola! Esta es mi PWA desde ceros</h1>
+    <p>Si estÃ¡s en el navegador, verÃ¡s el icono de instalaciÃ³n en la barra de direcciones.</p>
   </main>
 
   <script>
@@ -22,7 +22,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
-          .then(reg => console.log('Service Worker registrado con éxito', reg))
+          .then(reg => console.log('Service Worker registrado con Ã©xito', reg))
           .catch(err => console.error('Error al registrar el Service Worker', err));
       });
     }

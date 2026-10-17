@@ -1,10 +1,10 @@
 {
-  "name": "Aplicación Web Progresiva Desde Cero",
+  "name": "Aplicacion Web Progresiva Desde Cero",
   "short_name": "MiPWA",
-  "start_url": "./index.html",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#317EFB",
+  "background_color": "#f4f6f4",
+  "theme_color": "#2e4f38",
   "orientation": "portrait",
   "icons": [
     {

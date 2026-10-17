@@ -5,39 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Conjunto Residencial</title>
     <link rel="stylesheet" href="style.css">
-     <!-- Vinculaci�n del Manifiesto -->
+     <!-- Vinculacion del Manifiesto -->
   <link rel="manifest" href="manifest.json">
-  <!-- Tema de color para la barra de estado en m�viles -->
+  <!-- Tema de color para la barra de estado en mviles -->
   <meta name="theme-color" content="#317EFB">
 </head>
 <body>
     <div class="login-container">
         <!-- Encabezado / Logo -->
         <div class="login-header">
-            <div class="logo-icon">??</div>
+            <div class="logo-icon"></div>
             <h2>Mi Conjunto</h2>
-            <p>Gesti�n Residencial Inteligente</p>
+            <p>Gestion Residencial Inteligente</p>
         </div>
 
         <!-- Formulario de Acceso -->
         <form id="login-form">
             <div class="input-group">
-                <label for="email">Correo Electr�nico</label>
+                <label for="email">Correo Electronico</label>
                 <input type="email" id="email" placeholder="ejemplo@correo.com" required>
             </div>
 
             <div class="input-group">
-                <label for="password">Contrase�a</label>
-                <input type="password" id="password" placeholder="��������" required>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="*******" required>
             </div>
 
             <div class="input-group">
                 <label for="role">Tipo de Usuario</label>
                 <select id="role" required>
                     <option value="" disabled selected>Selecciona tu rol...</option>
-                    <option value="residente">?? Residente</option>
-                    <option value="porteria">??? Porter�a / Seguridad</option>
-                    <option value="administrador">?? Administrador</option>
+                    <option value="residente"> Residente</option>
+                    <option value="porteria"> Porteria / Seguridad</option>
+                    <option value="administrador"> Administrador</option>
                 </select>
             </div>
 
@@ -45,7 +45,7 @@
         </form>
 
         <div class="login-footer">
-            <p>�Problemas con tu acceso? Contacta a administraci�n.</p>
+            <p>Problemas con tu acceso? Contacta a administracion.</p>
         </div>
     </div>
      <script>
@@ -53,7 +53,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
-          .then(reg => console.log('Service Worker registrado con �xito', reg))
+          .then(reg => console.log('Service Worker registrado con exito', reg))
           .catch(err => console.error('Error al registrar el Service Worker', err));
       });
     }
